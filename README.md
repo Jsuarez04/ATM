@@ -41,12 +41,8 @@ ATM: Motor principal que gestiona el flujo de la aplicación y la interfaz de us
 💻 Instalación y Ejecución
 Clona el repositorio:
 
-Bash
-
 git clone https://github.com/Jsuarez04/ATM.git
 Compila el proyecto:
-
-Bash
 
 javac *.java
 Ejecuta la aplicación:
