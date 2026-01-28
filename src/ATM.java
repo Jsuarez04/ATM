@@ -30,9 +30,13 @@ public class ATM {
 
         // 2. Bucle principal del programa
         while (true) {
+            try{
             atm.showMenu();
             atm.validateOptionMainMenu(accounts);
-            atm.userInfo(accounts[0]);
+            }
+            catch (Exception e){
+                System.out.println("Error: " + e.getMessage());
+            }
         }
 
     }
@@ -65,6 +69,9 @@ public class ATM {
         } else if (option == 2) {
             System.out.println("Gracias por usar el ATM. ¡Adiós!");
             System.exit(0);
+        }else{
+            System.out.println("Opción inválida.");
+            return;
         }
     }
 
