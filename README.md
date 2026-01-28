@@ -1,7 +1,3 @@
-Un buen README.md es la cara de tu proyecto en GitHub, especialmente ahora que estás buscando pasantías en empresas como Ferrominera o Visco Orinoco. Debe ser profesional, claro y explicar no solo qué hace el código, sino cómo lo diseñaste.
-
-Aquí tienes una propuesta robusta para tu repositorio:
-
 ATM Simulator - Java OOP
 Este es un simulador de Cajero Automático (ATM) desarrollado en Java como proyecto de práctica para consolidar conceptos avanzados de Programación Orientada a Objetos (POO). El sistema permite gestionar múltiples usuarios, cuentas bancarias con reglas de negocio específicas y validaciones de seguridad básicas.
 
